@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>CSS Color Test: color - cadetblue</title>
+<link rel="author" title="Intel" href="http://www.intel.com/">
+<link rel="author" title="Yunxiao Xie" href="mailto:yunxiaox.xie@intel.com">
+<link rel="help" title="4.3. Extended color keywords" href="http://www.w3.org/TR/css3-color/#svg-color">
+<link name="match" href="color-188-ref.html">
+<meta name="flags" content="Ahem">
+<meta name="assert" content="The 'color' property set to 'cadetblue' renders the correct foreground color of an element's text content.">
+<style>
+  #test {
+    color: cadetblue;
+    font: 100px/1 Ahem;
+    margin-bottom: 10px;
+  }
+  #ref {
+    background-color: rgb(95,158,160);
+    height: 100px;
+    width: 100px;
+  }
+</style>
+<body>
+  <p>Test passes if there are two squares with the same color.</p>
+  <div id="test">X</div>
+  <div id="ref"></div>
+</body>
